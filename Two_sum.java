@@ -1,18 +1,12 @@
-class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        int n=nums.length;
-        int sum=0;
-        int[] result=new int[2];
-        for(int i=0;i<n;i++){
-            for(int j=i+1;j<n;j++){
-                sum=nums[i]+nums[j];
-                if(sum==target){
-                    result[0]=i;
-                    result[1]=j;
-                    break;
-                }
-            }
-        }
-        return result;
-    }
-}
+class Solution(object):
+    def twoSum(self, nums, target):
+        arr=[]
+        for i in range(len(nums)):
+            find=target- nums[i]
+            if find in nums:
+                j=nums.index(find)
+                if(i!=j):
+                    arr.append(i)
+                    arr.append(j)
+                    return arr
+        
