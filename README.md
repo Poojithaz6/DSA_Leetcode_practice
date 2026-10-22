@@ -5,7 +5,7 @@ A collection of my LeetCode problem solutions as I practice Data Structures and 
 
 ## About
 
-This repository contains solutions to coding problems solved on [LeetCode](https://leetcode.com/). Each solution focuses on understanding the problem, selecting an appropriate algorithm, and writing clean and efficient code.
+This repository contains solutions to coding problems solved on [LeetCode](https://leetcode.com/u/poojithaz6/). Each solution focuses on understanding the problem, selecting an appropriate algorithm, and writing clean and efficient code.
 
 ## Topics Covered
 
